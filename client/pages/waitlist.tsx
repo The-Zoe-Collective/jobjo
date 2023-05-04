@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
-import jobjobBanner from '../assets/images/jobjo_banner-1.jpg';
+import jobjoBanner from '../assets/images/jobjo_banner-1.jpg';
 
 function Waitlist() {
   const [waitlistForm, setWaitlistForm] = useState({
@@ -14,7 +14,7 @@ function Waitlist() {
   return (
     <main className="main_waitlist_parent min-h-screen flex flex-col lg:flex-row">
       <div className="waitlist_left w-full lg:w-1/2 lg:h-screen lg:bg-cover">
-        <Image alt="jobjo-advert-banner" className="w-full lg:hidden" src={jobjobBanner} priority />
+        <Image alt="jobjo-advert-banner" className="w-full lg:hidden" src={jobjoBanner} priority />
       </div>
       <div className="waitlist_right h-[600px] lg:w-1/2 lg:h-screen lg:bg-cover pt-16 text-center px-3 sm:px-16 relative lg:pt-60">
         <section className="justify-center items-center lg:w-[400px] lg:mx-auto xl:w-[500px]">
