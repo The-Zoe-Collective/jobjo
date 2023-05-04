@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.waitlist_left {
+  background-image: url('../assets/images/jobjo_banner-1.jpg');
+}
+
+@layer utilities {
+  .poppins {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .nunito-sans {
+    font-family: 'Nunito Sans', sans-serif;
+  }
+}
