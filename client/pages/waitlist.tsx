@@ -24,7 +24,7 @@ function Waitlist() {
 
     try {
       const response = await axios.post(
-        'https://jobjo-project-server.onrender.com/api/v1/join-waitlist',
+        'https://jobjo-project-test-server.onrender.com/api/v1/join-waitlist',
         waitlistForm
       );
 
