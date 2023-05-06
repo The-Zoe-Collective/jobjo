@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .waitlist_left {
-  background-image: url('../assets/images/jobjo_banner-1.jpg');
+  background-image: url('../assets/images/jobjo-banner-1.jpg');
 }
 
 @layer utilities {
