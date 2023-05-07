@@ -18,7 +18,10 @@ function Home() {
     <>
       <Head>
         <title>Jobjo</title>
-        <meta property="og:image" content="../assets/images/jobjo-banner-1.jpg" />
+        <meta
+          property="og:image"
+          content="https://www.jobjo.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fjobjo-banner-1.e71413e3.jpg&w=3840&q=75"
+        />
       </Head>
       <main className="main_waitlist_parent h-screen flex justify-center items-center px-4 nunito-sans">
         <div className="w-[500px] text-center mx-auto">
